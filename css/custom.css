@@ -1,0 +1,9 @@
+/* 让所有 Markdown 图片自动居中 + 最大宽度 90% */
+.post-body img {
+  display: block;
+  margin: 1.5em auto;           /* 垂直间距 + 水平居中 */
+  max-width: 70%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+}
